@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-    var socksProxy = "SOCKS5 127.0.0.1:1080";
+    var socksProxy = "SOCKS 127.0.0.1:1080";
 
     if (
 		shExpMatch(host, "*.blocked-site.com") ||
